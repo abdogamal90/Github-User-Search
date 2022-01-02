@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(31 42 72);
+}
+.put {
+  text-align-last: center;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+}
+.main {
+  border: solid rgb(31 42 72) 1px;
+  border-radius: 20px;
+  margin-top: 60px;
+  height: 40em;
+}
+.inp {
+  background-color: #2e4056;
+}
+#demo {
+  background-color: #2e4056;
+  width: 91%;
+  margin-top: 3%;
+  border-radius: 20px;
+}
+#demo img {
+  height: 15em;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#demo p {
+  padding: 10px;
+  /* display: flex; */
+  display: inline-flex;
+  /* display: grid; */
+  justify-content: center;
+  transform: translateX(10em);
+  font-size: 30px;
+  color: #fff;
+}
