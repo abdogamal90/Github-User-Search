@@ -2,6 +2,14 @@
     font-family: "Space Mono", monospace;
 
 }
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+}
 body{
   background-color: #f6f8ff;
   
@@ -90,6 +98,9 @@ form{
   padding: 10px;
   border-radius: 10px;
 }
+.name p{
+  font-size: 1.75rem;
+}
 .info p{
   margin-left: 10px;
   font-weight: 600;
@@ -101,9 +112,6 @@ form{
   font-size: 20px;
   font-weight: 600;
   padding: 0px 10px;
-
-  
-
 }
 .username{
   color: #0366d6;
@@ -122,25 +130,61 @@ form{
 .socials span{
   margin-left: -10px;
 }
-
-
-/* .search-result{
+.social-contact{
   display: flex;
-  flex-direction: row;
-  border: 1px solid #ccc;
-  height: 200px;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
+  justify-content: space-around;
   align-items: center;
-  width: 100%;
-  margin-left: 18px;
-  background-color: black;
-  color: aquamarine;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.search-result img{
-  width: 198px;
-  margin-right: 10px;
+.not-found{
+  display: flex;
+  margin: auto;
+  height: 50vh;
+  font-size: 1.75rem;
+  padding: 20vh;
+}
+@media screen and (max-width: 768px){
+  .container{
+    width: 100% !important;
+  }
+  .head{
+    font-size: 20px;
+  }
+  .main-img img{
+    width: 100px;
+  }
+  .content{
+    margin-left: 20px;
+  }
+  .name p{
+    font-size: 1.5rem;
+  }
+  .info{
+    margin-left: -17vh;
+  }
+  .info p{
+    margin-left: 0px;
+  }
+  .info span{
+    margin-left: 0px;
+  }
+  .socials{
+    margin-left: -17vh;
+  }
+  .socials span{
+    margin-left: 0px;
+  }
+  .socials img{
+    margin-right: 0px;
+  }
+  .not-found{
+    display: flex;
+    margin: auto;
+    height: 50vh;
+    font-size: 1.5rem;
+    padding: 10vh;
+    padding-top: 20vh;
+  }
+}
 
-}
- */

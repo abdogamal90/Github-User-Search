@@ -15,7 +15,7 @@ form.addEventListener('submit', (e) => {
             
             console.log(data)
             if (data.message == "Not Found") {
-                document.getElementById('search-result').innerHTML = `<p>Not Found</p>`
+                document.getElementById('search-result').innerHTML = `<p class="not-found">Not Found !</p>`
             }
             else {
                 document.getElementById('search-result').innerHTML = 
@@ -24,7 +24,7 @@ form.addEventListener('submit', (e) => {
       </div>
       <div class="content">
         <div class="name">
-          <h3 id="name">${data.name ? data.name : 'No name' }</h3>
+          <p id="name">${data.name ? data.name : 'No name' }</p>
         </div>
         <div class="username">
           <p id="username">@${data.login}</p>
