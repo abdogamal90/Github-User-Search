@@ -266,7 +266,6 @@ do the same media query for different screen sizes
   .info{
     margin-left: -17vh;
     display: flex;
-    justify-content: center;
   }
   .info p{
     margin-left: 0px;
