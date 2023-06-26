@@ -137,6 +137,10 @@ form{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.social-contact img{
+  width: 25px;
+  margin-right: 10px;
+}
 .not-found{
   display: flex;
   margin: auto;
